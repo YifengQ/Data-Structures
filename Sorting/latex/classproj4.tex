@@ -1,0 +1,458 @@
+\hypertarget{classproj4}{}\section{proj4 Class Reference}
+\label{classproj4}\index{proj4@{proj4}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classproj4_ac880083cdde0f8b74520224be0d66085}{proj4}} ()
+\item 
+bool \mbox{\hyperlink{classproj4_ac11ae7e2ea8ae9432a6ed87a458c1bd5}{insert}} (int position, int value)
+\item 
+void \mbox{\hyperlink{classproj4_a6a830cb16e2252128616906c345429dd}{clear}} ()
+\item 
+void \mbox{\hyperlink{classproj4_aa7a82d6f979a7d11fdff535b1329ac79}{set\+Max\+Items}} (int items)
+\item 
+unsigned int \mbox{\hyperlink{classproj4_a0a8c2239f67a3b980e0c3ce7d30bc49e}{get\+Swaps}} ()
+\begin{DoxyCompactList}\small\item\em returns the amount of swaps \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classproj4_a0f93bf202146d4965668daaf5ffc1b1b}{get\+Comparisons}} ()
+\begin{DoxyCompactList}\small\item\em returns the amount of comparisions \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classproj4_ac923b04f0a279f04b89220b4f33973de}{get\+Partitions}} ()
+\item 
+unsigned int \mbox{\hyperlink{classproj4_a8780450f397cf30384a2eb41d3a24df7}{get\+Count\+Sorts}} ()
+\item 
+unsigned int \mbox{\hyperlink{classproj4_ac80a9cc8bf6fdd000a6515fd63070371}{get\+Counts}} ()
+\item 
+int \mbox{\hyperlink{classproj4_a3ba29a2c458a27e34577ef383bcf7df2}{get\+Reursion}} ()
+\item 
+int \mbox{\hyperlink{classproj4_a58e2adfdc732a2533990ad44bc75f1d8}{get\+Left}} ()
+\item 
+int \mbox{\hyperlink{classproj4_a83d1387e419d934fa5b97e2f79b979d2}{get\+Right}} ()
+\item 
+int \mbox{\hyperlink{classproj4_a03877ba5b77cc470509002a5df7e94fe}{get\+Number}} (int position)
+\begin{DoxyCompactList}\small\item\em just a function that shows how it is working \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproj4_aee6e853c25f60b77413edf9d0cf19470}{bubble\+\_\+sort}} ()
+\begin{DoxyCompactList}\small\item\em uses two for loops to go through the array and swap neighboring elements \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproj4_a5742145f4cf42d5054e2621161252872}{swap}} (int $\ast$xp, int $\ast$yp)
+\item 
+void \mbox{\hyperlink{classproj4_ab413a8d7e60015de7a27dc0817a1a655}{quick\+\_\+sort}} (int low, int high)
+\begin{DoxyCompactList}\small\item\em gets the pivot position and uses recursive call to fully sort it \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classproj4_a26fd85cdceb9263023c66f6444d1282d}{partition}} (int low, int high)
+\begin{DoxyCompactList}\small\item\em Will take the pivot positions and compare it to the pivot point to find the postion while swapping. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproj4_a409353e4232f280b43a76e3bd9276cff}{count\+\_\+sort}} (int n, int exp)
+\begin{DoxyCompactList}\small\item\em has temp array to store the values, then a count array to the position of the number, it then builds the output array and sets the array to the output array \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classproj4_a5268b0050f09ac4db2896a39e2ea850d}{get\+Max}} (int n)
+\item 
+void \mbox{\hyperlink{classproj4_a612801aac2ccf7f3ed1176a3c2a1d938}{radixsort}} (int n)
+\item 
+void \mbox{\hyperlink{classproj4_a21e0a4c4dd81cf67a25d0ab62370ab5e}{merge}} (int l, int m, int r)
+\begin{DoxyCompactList}\small\item\em Will make temp arrays that store the left and right values, then it will merge it back together. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproj4_a9773d2125c6c8ccebf1f7e4932ee4e71}{merge\+Sort}} (int l, int r)
+\begin{DoxyCompactList}\small\item\em Will take the left and right to sort the array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classproj4_ac880083cdde0f8b74520224be0d66085}\label{classproj4_ac880083cdde0f8b74520224be0d66085}} 
+\index{proj4@{proj4}!proj4@{proj4}}
+\index{proj4@{proj4}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{proj4()}{proj4()}}
+{\footnotesize\ttfamily proj4\+::proj4 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will give default values \begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will give default values 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classproj4_aee6e853c25f60b77413edf9d0cf19470}\label{classproj4_aee6e853c25f60b77413edf9d0cf19470}} 
+\index{proj4@{proj4}!bubble\+\_\+sort@{bubble\+\_\+sort}}
+\index{bubble\+\_\+sort@{bubble\+\_\+sort}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{bubble\+\_\+sort()}{bubble\_sort()}}
+{\footnotesize\ttfamily void proj4\+::bubble\+\_\+sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+uses two for loops to go through the array and swap neighboring elements 
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+will sort the array 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+depending on the size of the array, it will run through it that many times to swap items 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a6a830cb16e2252128616906c345429dd}\label{classproj4_a6a830cb16e2252128616906c345429dd}} 
+\index{proj4@{proj4}!clear@{clear}}
+\index{clear@{clear}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void proj4\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will reset all the values \begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Resets all the values 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a409353e4232f280b43a76e3bd9276cff}\label{classproj4_a409353e4232f280b43a76e3bd9276cff}} 
+\index{proj4@{proj4}!count\+\_\+sort@{count\+\_\+sort}}
+\index{count\+\_\+sort@{count\+\_\+sort}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{count\+\_\+sort()}{count\_sort()}}
+{\footnotesize\ttfamily void proj4\+::count\+\_\+sort (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{exp }\end{DoxyParamCaption})}
+
+
+
+has temp array to store the values, then a count array to the position of the number, it then builds the output array and sets the array to the output array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n,length} & of the array \\
+\hline
+{\em exp,exponent} & it is on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+takes in the lenght of the array and the exponent it is on to sort the array 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+takes the exponents and sorts them based on that 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a0f93bf202146d4965668daaf5ffc1b1b}\label{classproj4_a0f93bf202146d4965668daaf5ffc1b1b}} 
+\index{proj4@{proj4}!get\+Comparisons@{get\+Comparisons}}
+\index{get\+Comparisons@{get\+Comparisons}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Comparisons()}{getComparisons()}}
+{\footnotesize\ttfamily unsigned int proj4\+::get\+Comparisons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the amount of comparisions 
+
+\begin{DoxyReturn}{Returns}
+comparisons 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classproj4_ac80a9cc8bf6fdd000a6515fd63070371}\label{classproj4_ac80a9cc8bf6fdd000a6515fd63070371}} 
+\index{proj4@{proj4}!get\+Counts@{get\+Counts}}
+\index{get\+Counts@{get\+Counts}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Counts()}{getCounts()}}
+{\footnotesize\ttfamily unsigned int proj4\+::get\+Counts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the amount of times count was used \begin{DoxyReturn}{Returns}
+counts 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return how many times a values was stored in the array count 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a8780450f397cf30384a2eb41d3a24df7}\label{classproj4_a8780450f397cf30384a2eb41d3a24df7}} 
+\index{proj4@{proj4}!get\+Count\+Sorts@{get\+Count\+Sorts}}
+\index{get\+Count\+Sorts@{get\+Count\+Sorts}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Count\+Sorts()}{getCountSorts()}}
+{\footnotesize\ttfamily unsigned int proj4\+::get\+Count\+Sorts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return how many times sort was called \begin{DoxyReturn}{Returns}
+count\+Sorts 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Returns the number of times count sort was called for radix sort 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a58e2adfdc732a2533990ad44bc75f1d8}\label{classproj4_a58e2adfdc732a2533990ad44bc75f1d8}} 
+\index{proj4@{proj4}!get\+Left@{get\+Left}}
+\index{get\+Left@{get\+Left}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Left()}{getLeft()}}
+{\footnotesize\ttfamily int proj4\+::get\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the amount of items in the left \begin{DoxyReturn}{Returns}
+left 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return how many times a values was stored in the left array 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a5268b0050f09ac4db2896a39e2ea850d}\label{classproj4_a5268b0050f09ac4db2896a39e2ea850d}} 
+\index{proj4@{proj4}!get\+Max@{get\+Max}}
+\index{get\+Max@{get\+Max}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Max()}{getMax()}}
+{\footnotesize\ttfamily int proj4\+::get\+Max (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+gets the biggest element in the array 
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+temp, largest element 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+takes the length of the array and gets the largest value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+runs through the array to find the largest value 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a03877ba5b77cc470509002a5df7e94fe}\label{classproj4_a03877ba5b77cc470509002a5df7e94fe}} 
+\index{proj4@{proj4}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Number()}{getNumber()}}
+{\footnotesize\ttfamily int proj4\+::get\+Number (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+
+just a function that shows how it is working 
+
+Will return the element at that postion.
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the element in that array 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+takes in the position to find that element in that postion 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return the item in that position in the array 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_ac923b04f0a279f04b89220b4f33973de}\label{classproj4_ac923b04f0a279f04b89220b4f33973de}} 
+\index{proj4@{proj4}!get\+Partitions@{get\+Partitions}}
+\index{get\+Partitions@{get\+Partitions}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Partitions()}{getPartitions()}}
+{\footnotesize\ttfamily unsigned int proj4\+::get\+Partitions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the number of partitions \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Returns the number of partitions 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a3ba29a2c458a27e34577ef383bcf7df2}\label{classproj4_a3ba29a2c458a27e34577ef383bcf7df2}} 
+\index{proj4@{proj4}!get\+Reursion@{get\+Reursion}}
+\index{get\+Reursion@{get\+Reursion}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Reursion()}{getReursion()}}
+{\footnotesize\ttfamily int proj4\+::get\+Reursion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the amount of times recursion was called \begin{DoxyReturn}{Returns}
+recursions 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return how many times it called itself to sort 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a83d1387e419d934fa5b97e2f79b979d2}\label{classproj4_a83d1387e419d934fa5b97e2f79b979d2}} 
+\index{proj4@{proj4}!get\+Right@{get\+Right}}
+\index{get\+Right@{get\+Right}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Right()}{getRight()}}
+{\footnotesize\ttfamily int proj4\+::get\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the amount of items in the right \begin{DoxyReturn}{Returns}
+right 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return how many times a values was stored in the right array 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a0a8c2239f67a3b980e0c3ce7d30bc49e}\label{classproj4_a0a8c2239f67a3b980e0c3ce7d30bc49e}} 
+\index{proj4@{proj4}!get\+Swaps@{get\+Swaps}}
+\index{get\+Swaps@{get\+Swaps}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{get\+Swaps()}{getSwaps()}}
+{\footnotesize\ttfamily unsigned int proj4\+::get\+Swaps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the amount of swaps 
+
+\begin{DoxyReturn}{Returns}
+swaps 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classproj4_ac11ae7e2ea8ae9432a6ed87a458c1bd5}\label{classproj4_ac11ae7e2ea8ae9432a6ed87a458c1bd5}} 
+\index{proj4@{proj4}!insert@{insert}}
+\index{insert@{insert}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily bool proj4\+::insert (\begin{DoxyParamCaption}\item[{int}]{position,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Inserts the element in that postion 
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false depending on if it can insert 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+will take the position and value to add to the array 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will take position to give the value to that postion in the array 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a21e0a4c4dd81cf67a25d0ab62370ab5e}\label{classproj4_a21e0a4c4dd81cf67a25d0ab62370ab5e}} 
+\index{proj4@{proj4}!merge@{merge}}
+\index{merge@{merge}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{merge()}{merge()}}
+{\footnotesize\ttfamily void proj4\+::merge (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{m,  }\item[{int}]{r }\end{DoxyParamCaption})}
+
+
+
+Will make temp arrays that store the left and right values, then it will merge it back together. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & \\
+\hline
+{\em m} & \\
+\hline
+{\em r} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Takes in the left right and middle to give sizes to the arrays 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will create temp arrays for the left and right. It will copy the data into both and merge it back to the original, then move any remaining elements back into the original array. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a9773d2125c6c8ccebf1f7e4932ee4e71}\label{classproj4_a9773d2125c6c8ccebf1f7e4932ee4e71}} 
+\index{proj4@{proj4}!merge\+Sort@{merge\+Sort}}
+\index{merge\+Sort@{merge\+Sort}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{merge\+Sort()}{mergeSort()}}
+{\footnotesize\ttfamily void proj4\+::merge\+Sort (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{r }\end{DoxyParamCaption})}
+
+
+
+Will take the left and right to sort the array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & \\
+\hline
+{\em r} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the left and right values to give to the sort 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will use the left and right, and keep using recursive calls to change the left and right values to give to the merge function 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a26fd85cdceb9263023c66f6444d1282d}\label{classproj4_a26fd85cdceb9263023c66f6444d1282d}} 
+\index{proj4@{proj4}!partition@{partition}}
+\index{partition@{partition}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{partition()}{partition()}}
+{\footnotesize\ttfamily int proj4\+::partition (\begin{DoxyParamCaption}\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+
+
+Will take the pivot positions and compare it to the pivot point to find the postion while swapping. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em low} & \\
+\hline
+{\em high} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pivot position 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+will take in the low and high to compare the elemments in the array 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+will find the find the pivot and find if the element is samller to the pivot and swap them 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_ab413a8d7e60015de7a27dc0817a1a655}\label{classproj4_ab413a8d7e60015de7a27dc0817a1a655}} 
+\index{proj4@{proj4}!quick\+\_\+sort@{quick\+\_\+sort}}
+\index{quick\+\_\+sort@{quick\+\_\+sort}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{quick\+\_\+sort()}{quick\_sort()}}
+{\footnotesize\ttfamily void proj4\+::quick\+\_\+sort (\begin{DoxyParamCaption}\item[{int}]{low,  }\item[{int}]{high }\end{DoxyParamCaption})}
+
+
+
+gets the pivot position and uses recursive call to fully sort it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em low} & \\
+\hline
+{\em high} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+takes the low and high to find the partition pivot 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+uses recursion to keep using the partition function to swap the elements till it is sorted 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_a612801aac2ccf7f3ed1176a3c2a1d938}\label{classproj4_a612801aac2ccf7f3ed1176a3c2a1d938}} 
+\index{proj4@{proj4}!radixsort@{radixsort}}
+\index{radixsort@{radixsort}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{radixsort()}{radixsort()}}
+{\footnotesize\ttfamily void proj4\+::radixsort (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+Will do a count sort for all digits, it uses the exponent to tell what number it is on 
+\begin{DoxyParams}{Parameters}
+{\em n} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the length of the array to find the max number, and then call count sort for all the digits 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Calls count sort to sort the array 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classproj4_aa7a82d6f979a7d11fdff535b1329ac79}\label{classproj4_aa7a82d6f979a7d11fdff535b1329ac79}} 
+\index{proj4@{proj4}!set\+Max\+Items@{set\+Max\+Items}}
+\index{set\+Max\+Items@{set\+Max\+Items}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{set\+Max\+Items()}{setMaxItems()}}
+{\footnotesize\ttfamily void proj4\+::set\+Max\+Items (\begin{DoxyParamCaption}\item[{int}]{items }\end{DoxyParamCaption})}
+
+gives the max items and amount 
+\begin{DoxyParams}{Parameters}
+{\em items} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classproj4_a5742145f4cf42d5054e2621161252872}\label{classproj4_a5742145f4cf42d5054e2621161252872}} 
+\index{proj4@{proj4}!swap@{swap}}
+\index{swap@{swap}!proj4@{proj4}}
+\subsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily void proj4\+::swap (\begin{DoxyParamCaption}\item[{int $\ast$}]{xp,  }\item[{int $\ast$}]{yp }\end{DoxyParamCaption})}
+
+takes in two values and swaps them 
+\begin{DoxyParams}{Parameters}
+{\em xp} & \\
+\hline
+{\em yp} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+proj4.\+h\item 
+proj4.\+cpp\end{DoxyCompactItemize}

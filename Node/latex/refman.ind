@@ -1,0 +1,136 @@
+\begin{theindex}
+
+  \item {$\sim$\+Node\+Tree}
+    \subitem {Node\+Tree}, \hyperpage{10}
+
+  \indexspace
+
+  \item {add}
+    \subitem {Node\+Tree}, \hyperpage{11}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {Node\+Tree}, \hyperpage{11}
+  \item {contains}
+    \subitem {Node\+Tree}, \hyperpage{12}
+
+  \indexspace
+
+  \item {delete\+Node}
+    \subitem {Node\+Tree}, \hyperpage{12}
+
+  \indexspace
+
+  \item {find\+Node}
+    \subitem {Node\+Tree}, \hyperpage{13}
+
+  \indexspace
+
+  \item {get\+Entry}
+    \subitem {Node\+Tree}, \hyperpage{13}
+  \item {get\+Height}
+    \subitem {Node\+Tree}, \hyperpage{14}
+  \item {get\+Item}
+    \subitem {Node}, \hyperpage{6}
+  \item {get\+Left\+Child\+Ptr}
+    \subitem {Node}, \hyperpage{7}
+  \item {get\+Numberof\+Nodes}
+    \subitem {Node\+Tree}, \hyperpage{14}
+  \item {get\+Right\+Child\+Ptr}
+    \subitem {Node}, \hyperpage{7}
+  \item {get\+Root\+Ptr}
+    \subitem {Node\+Tree}, \hyperpage{15}
+
+  \indexspace
+
+  \item {height\+Helper}
+    \subitem {Node\+Tree}, \hyperpage{15}
+
+  \indexspace
+
+  \item {inorder\+Delete}
+    \subitem {Node\+Tree}, \hyperpage{15}
+  \item {inorder\+Transverse}
+    \subitem {Node\+Tree}, \hyperpage{16}
+  \item {insert\+Inorder}
+    \subitem {Node\+Tree}, \hyperpage{16}
+  \item {is\+Empty}
+    \subitem {Node\+Tree}, \hyperpage{17}
+  \item {is\+Leaf}
+    \subitem {Node}, \hyperpage{7}
+
+  \indexspace
+
+  \item {min\+Value}
+    \subitem {Node\+Tree}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Node}, \hyperpage{5}
+    \subitem {get\+Item}, \hyperpage{6}
+    \subitem {get\+Left\+Child\+Ptr}, \hyperpage{7}
+    \subitem {get\+Right\+Child\+Ptr}, \hyperpage{7}
+    \subitem {is\+Leaf}, \hyperpage{7}
+    \subitem {Node}, \hyperpage{6}
+    \subitem {set\+Item}, \hyperpage{8}
+    \subitem {set\+Left\+Child\+Ptr}, \hyperpage{8}
+    \subitem {set\+Right\+Child\+Ptr}, \hyperpage{9}
+  \item {Node\+Tree}, \hyperpage{9}
+    \subitem {$\sim$\+Node\+Tree}, \hyperpage{10}
+    \subitem {add}, \hyperpage{11}
+    \subitem {clear}, \hyperpage{11}
+    \subitem {contains}, \hyperpage{12}
+    \subitem {delete\+Node}, \hyperpage{12}
+    \subitem {find\+Node}, \hyperpage{13}
+    \subitem {get\+Entry}, \hyperpage{13}
+    \subitem {get\+Height}, \hyperpage{14}
+    \subitem {get\+Numberof\+Nodes}, \hyperpage{14}
+    \subitem {get\+Root\+Ptr}, \hyperpage{15}
+    \subitem {height\+Helper}, \hyperpage{15}
+    \subitem {inorder\+Delete}, \hyperpage{15}
+    \subitem {inorder\+Transverse}, \hyperpage{16}
+    \subitem {insert\+Inorder}, \hyperpage{16}
+    \subitem {is\+Empty}, \hyperpage{17}
+    \subitem {min\+Value}, \hyperpage{17}
+    \subitem {postorder\+Transverse}, \hyperpage{18}
+    \subitem {preorder\+Transverse}, \hyperpage{18}
+    \subitem {remove\+Leftmost\+Node}, \hyperpage{19}
+    \subitem {remove\+Node}, \hyperpage{19}
+    \subitem {remove\+Value}, \hyperpage{20}
+    \subitem {reset\+Count}, \hyperpage{20}
+    \subitem {set\+Root}, \hyperpage{21}
+    \subitem {set\+Root\+Data}, \hyperpage{21}
+
+  \indexspace
+
+  \item {postorder\+Transverse}
+    \subitem {Node\+Tree}, \hyperpage{18}
+  \item {preorder\+Transverse}
+    \subitem {Node\+Tree}, \hyperpage{18}
+
+  \indexspace
+
+  \item {remove\+Leftmost\+Node}
+    \subitem {Node\+Tree}, \hyperpage{19}
+  \item {remove\+Node}
+    \subitem {Node\+Tree}, \hyperpage{19}
+  \item {remove\+Value}
+    \subitem {Node\+Tree}, \hyperpage{20}
+  \item {reset\+Count}
+    \subitem {Node\+Tree}, \hyperpage{20}
+
+  \indexspace
+
+  \item {set\+Item}
+    \subitem {Node}, \hyperpage{8}
+  \item {set\+Left\+Child\+Ptr}
+    \subitem {Node}, \hyperpage{8}
+  \item {set\+Right\+Child\+Ptr}
+    \subitem {Node}, \hyperpage{9}
+  \item {set\+Root}
+    \subitem {Node\+Tree}, \hyperpage{21}
+  \item {set\+Root\+Data}
+    \subitem {Node\+Tree}, \hyperpage{21}
+
+\end{theindex}

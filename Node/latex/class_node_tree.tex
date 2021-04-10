@@ -1,0 +1,569 @@
+\hypertarget{class_node_tree}{}\section{Node\+Tree Class Reference}
+\label{class_node_tree}\index{Node\+Tree@{Node\+Tree}}
+Inheritance diagram for Node\+Tree\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_node_tree}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_node_tree_aaffe7d72c1e5c56881854487370281a8}\label{class_node_tree_aaffe7d72c1e5c56881854487370281a8}} 
+\mbox{\hyperlink{class_node_tree_aaffe7d72c1e5c56881854487370281a8}{Node\+Tree}} ()
+\begin{DoxyCompactList}\small\item\em The Default constructor for the \mbox{\hyperlink{class_node_tree}{Node\+Tree}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_node_tree_a6cb351a862dce80510ac48d145de2e9c}\label{class_node_tree_a6cb351a862dce80510ac48d145de2e9c}} 
+{\bfseries Node\+Tree} (const int \&root\+Item)
+\item 
+\mbox{\Hypertarget{class_node_tree_a801678afd7b236bc75687a776e979f80}\label{class_node_tree_a801678afd7b236bc75687a776e979f80}} 
+{\bfseries Node\+Tree} (const \mbox{\hyperlink{class_node_tree}{Node\+Tree}} \&tree)
+\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_ae6d1c0d70fc02fea199e9e7a81491d83}{insert\+Inorder}} (\mbox{\hyperlink{class_node}{Node}} $\ast$sub\+Tree\+Ptr, \mbox{\hyperlink{class_node}{Node}} $\ast$new\+Node)
+\begin{DoxyCompactList}\small\item\em global variable to count the amount of nodes \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a5581b1e229d7310960e826a14e34f560}{get\+Root\+Ptr}} ()
+\item 
+virtual \mbox{\hyperlink{class_node_tree_a3ad091290982424bcc0750da7133e411}{$\sim$\+Node\+Tree}} ()
+\item 
+bool \mbox{\hyperlink{class_node_tree_a484735008677b458037b1ce114d12f1a}{is\+Empty}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr) const
+\begin{DoxyCompactList}\small\item\em Will test if the tree is empty. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_node_tree_a711fa23ec5715b82c1a6dee780fde087}{get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Will get the height by calling the helper. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_node_tree_a504b5d012ccee99b85642d699396dd8f}{height\+Helper}} (\mbox{\hyperlink{class_node}{Node}} $\ast$tree\+Ptr)
+\item 
+int \mbox{\hyperlink{class_node_tree_ab619ff00f2cd2362d393ad41f2844129}{get\+Numberof\+Nodes}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr) const
+\begin{DoxyCompactList}\small\item\em Will return the number of nodes in the tree. It will run until both children get null. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_node_tree_a037b369c78e107b423090eab320b022f}\label{class_node_tree_a037b369c78e107b423090eab320b022f}} 
+int {\bfseries get\+Root\+Data} ()
+\item 
+\mbox{\Hypertarget{class_node_tree_aa1a0aebabeac588fe08b3fb810fe74ba}\label{class_node_tree_aa1a0aebabeac588fe08b3fb810fe74ba}} 
+bool {\bfseries remove} (const int \&data)
+\item 
+void \mbox{\hyperlink{class_node_tree_aa354f6975e4e1123b47a21948d00e1b2}{set\+Root\+Data}} (const int \&new\+Data)
+\item 
+void \mbox{\hyperlink{class_node_tree_adfa34cb3970d7ea5ed4c7861ee844b1e}{set\+Root}} (\mbox{\hyperlink{class_node}{Node}} $\ast$root)
+\item 
+bool \mbox{\hyperlink{class_node_tree_a2e2cd480e0a50d94d26b09cfd721ac7a}{add}} (const int \&new\+Data)
+\item 
+void \mbox{\hyperlink{class_node_tree_a22be831083f6970a7ba6b64fcd0995ff}{clear}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr)
+\item 
+int \mbox{\hyperlink{class_node_tree_a28bcd072ea53a04712a792b6b427371c}{get\+Entry}} (const int \&an\+Entry)
+\begin{DoxyCompactList}\small\item\em Will find the entry and return the value, if not it will return 0. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_node_tree_a7a0617d6f4b39f495da71613a05a098e}{contains}} (const int \&an\+Entry) const
+\item 
+void \mbox{\hyperlink{class_node_tree_a73bd5a18b76a3741fcf49e0465622de2}{preorder\+Transverse}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr) const
+\begin{DoxyCompactList}\small\item\em Will preorder transverse the tree and print the data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_node_tree_a3973627c8a390da9b12e4bc9d4a9327d}{inorder\+Transverse}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr) const
+\begin{DoxyCompactList}\small\item\em Will inorder transverse the tree and print the data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_node_tree_a09ddf9e2cb245c50952b9669fb328907}{postorder\+Transverse}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr) const
+\begin{DoxyCompactList}\small\item\em Will postorder transverse the tree and print the data. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a4a02f5a4836ed05e0d51e946101982b8}{delete\+Node}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr, int key)
+\begin{DoxyCompactList}\small\item\em Will delete the node with the key. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a71a5469b3871672b409224ee905540c3}{min\+Value}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr)
+\item 
+void \mbox{\hyperlink{class_node_tree_a4deaf904f4b727579020bcf6cba77a8f}{reset\+Count}} ()
+\item 
+void \mbox{\hyperlink{class_node_tree_ac57c84edf2b16c3fed7085413b272a62}{inorder\+Delete}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr, int)
+\begin{DoxyCompactList}\small\item\em Will delete the nodes that are equal to the nodes in B\+T\+S2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a5f976e7369dcc91276df40678b59c33c}{remove\+Value}} (\mbox{\hyperlink{class_node}{Node}} $\ast$sub\+Tree\+Ptr, int target, bool \&success)
+\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a68eae12d4ddd719e761e9e96211c8568}{remove\+Node}} (\mbox{\hyperlink{class_node}{Node}} $\ast$node\+Ptr)
+\begin{DoxyCompactList}\small\item\em Will remove the node. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a56b97fb5f2ea3ed32ec901e1a5589f89}{remove\+Leftmost\+Node}} (\mbox{\hyperlink{class_node}{Node}} $\ast$sub\+Tree\+Ptr, int \&inorder\+Successor)
+\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_tree_a3f5897a41812b5694c57140eb5ade884}{find\+Node}} (\mbox{\hyperlink{class_node}{Node}} $\ast$tree\+Ptr, const int \&target) const
+\begin{DoxyCompactList}\small\item\em Will find the node with that value and return the address of it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_node_tree_a3ad091290982424bcc0750da7133e411}\label{class_node_tree_a3ad091290982424bcc0750da7133e411}} 
+\index{Node\+Tree@{Node\+Tree}!````~Node\+Tree@{$\sim$\+Node\+Tree}}
+\index{````~Node\+Tree@{$\sim$\+Node\+Tree}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{$\sim$\+Node\+Tree()}{~NodeTree()}}
+{\footnotesize\ttfamily Node\+Tree\+::$\sim$\+Node\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor and will call clear to delete the nodes 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_node_tree_a2e2cd480e0a50d94d26b09cfd721ac7a}\label{class_node_tree_a2e2cd480e0a50d94d26b09cfd721ac7a}} 
+\index{Node\+Tree@{Node\+Tree}!add@{add}}
+\index{add@{add}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily bool Node\+Tree\+::add (\begin{DoxyParamCaption}\item[{const int \&}]{new\+Data }\end{DoxyParamCaption})}
+
+This is the function used to call the insert\+Inorder function 
+\begin{DoxyParams}{Parameters}
+{\em new\+Data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+It will take the new data member to give to the insert 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will create a new node with the data member in it. Then it will pass that new node and the root ptr to add to the tree 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a22be831083f6970a7ba6b64fcd0995ff}\label{class_node_tree_a22be831083f6970a7ba6b64fcd0995ff}} 
+\index{Node\+Tree@{Node\+Tree}!clear@{clear}}
+\index{clear@{clear}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Node\+Tree\+::clear (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption})}
+
+Will recursively call itself to clear all the children and delete the root 
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will clear all the children and nodes recursively 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a7a0617d6f4b39f495da71613a05a098e}\label{class_node_tree_a7a0617d6f4b39f495da71613a05a098e}} 
+\index{Node\+Tree@{Node\+Tree}!contains@{contains}}
+\index{contains@{contains}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily bool Node\+Tree\+::contains (\begin{DoxyParamCaption}\item[{const int \&}]{an\+Entry }\end{DoxyParamCaption}) const}
+
+Will check if the tree contains that value 
+\begin{DoxyParams}{Parameters}
+{\em an\+Entry} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in a int value to find 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will call findnode and if that node contains the entry it will return true, else false 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a4a02f5a4836ed05e0d51e946101982b8}\label{class_node_tree_a4a02f5a4836ed05e0d51e946101982b8}} 
+\index{Node\+Tree@{Node\+Tree}!delete\+Node@{delete\+Node}}
+\index{delete\+Node@{delete\+Node}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{delete\+Node()}{deleteNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::delete\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Will delete the node with the key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+{\em key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+node\+Ptr 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root and key to delete that node 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively call itself and set the children to the correct places after the deletion 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a3f5897a41812b5694c57140eb5ade884}\label{class_node_tree_a3f5897a41812b5694c57140eb5ade884}} 
+\index{Node\+Tree@{Node\+Tree}!find\+Node@{find\+Node}}
+\index{find\+Node@{find\+Node}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{find\+Node()}{findNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::find\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{tree\+Ptr,  }\item[{const int \&}]{target }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Will find the node with that value and return the address of it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree\+Ptr} & \\
+\hline
+{\em target} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+tree\+Ptr, will return the address to that target 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root and the taret to find it 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively find the target and return the address of the node 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a28bcd072ea53a04712a792b6b427371c}\label{class_node_tree_a28bcd072ea53a04712a792b6b427371c}} 
+\index{Node\+Tree@{Node\+Tree}!get\+Entry@{get\+Entry}}
+\index{get\+Entry@{get\+Entry}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{get\+Entry()}{getEntry()}}
+{\footnotesize\ttfamily int Node\+Tree\+::get\+Entry (\begin{DoxyParamCaption}\item[{const int \&}]{an\+Entry }\end{DoxyParamCaption})}
+
+
+
+Will find the entry and return the value, if not it will return 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em an\+Entry} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an\+Entry 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in a int value to pass to findnode 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will call findnode to get the item, and if its the same it will return that value, if not it will return 0 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a711fa23ec5715b82c1a6dee780fde087}\label{class_node_tree_a711fa23ec5715b82c1a6dee780fde087}} 
+\index{Node\+Tree@{Node\+Tree}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{get\+Height()}{getHeight()}}
+{\footnotesize\ttfamily int Node\+Tree\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Will get the height by calling the helper. 
+
+\begin{DoxyReturn}{Returns}
+The int value given by the helper 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will chall the helper function to return the number 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_ab619ff00f2cd2362d393ad41f2844129}\label{class_node_tree_ab619ff00f2cd2362d393ad41f2844129}} 
+\index{Node\+Tree@{Node\+Tree}!get\+Numberof\+Nodes@{get\+Numberof\+Nodes}}
+\index{get\+Numberof\+Nodes@{get\+Numberof\+Nodes}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{get\+Numberof\+Nodes()}{getNumberofNodes()}}
+{\footnotesize\ttfamily int Node\+Tree\+::get\+Numberof\+Nodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption}) const}
+
+
+
+Will return the number of nodes in the tree. It will run until both children get null. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nodes 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take the rootptr 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively call itself and increment the node counter to return the total value. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a5581b1e229d7310960e826a14e34f560}\label{class_node_tree_a5581b1e229d7310960e826a14e34f560}} 
+\index{Node\+Tree@{Node\+Tree}!get\+Root\+Ptr@{get\+Root\+Ptr}}
+\index{get\+Root\+Ptr@{get\+Root\+Ptr}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{get\+Root\+Ptr()}{getRootPtr()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::get\+Root\+Ptr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will return the root\+Ptr \begin{DoxyReturn}{Returns}
+root\+Ptr 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_node_tree_a504b5d012ccee99b85642d699396dd8f}\label{class_node_tree_a504b5d012ccee99b85642d699396dd8f}} 
+\index{Node\+Tree@{Node\+Tree}!height\+Helper@{height\+Helper}}
+\index{height\+Helper@{height\+Helper}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{height\+Helper()}{heightHelper()}}
+{\footnotesize\ttfamily int Node\+Tree\+::height\+Helper (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{tree\+Ptr }\end{DoxyParamCaption})}
+
+The height\+Helper because it can access the root\+Ptr itself 
+\begin{DoxyParams}{Parameters}
+{\em tree\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the max height 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take the rootptr to pass to the children 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recusievly call itself until if finds the nullptr, it will increment itself when it calls itself and returns the max number 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_ac57c84edf2b16c3fed7085413b272a62}\label{class_node_tree_ac57c84edf2b16c3fed7085413b272a62}} 
+\index{Node\+Tree@{Node\+Tree}!inorder\+Delete@{inorder\+Delete}}
+\index{inorder\+Delete@{inorder\+Delete}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{inorder\+Delete()}{inorderDelete()}}
+{\footnotesize\ttfamily void Node\+Tree\+::inorder\+Delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Will delete the nodes that are equal to the nodes in B\+T\+S2. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+{\em key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take the root and the key 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will check if the key and the item in that node are equal, if equal it will call delete node to delete that node 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a3973627c8a390da9b12e4bc9d4a9327d}\label{class_node_tree_a3973627c8a390da9b12e4bc9d4a9327d}} 
+\index{Node\+Tree@{Node\+Tree}!inorder\+Transverse@{inorder\+Transverse}}
+\index{inorder\+Transverse@{inorder\+Transverse}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{inorder\+Transverse()}{inorderTransverse()}}
+{\footnotesize\ttfamily void Node\+Tree\+::inorder\+Transverse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption}) const}
+
+
+
+Will inorder transverse the tree and print the data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will get the rootptr to transverse the data 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively call itself to move through the tree to print it in inorder 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_ae6d1c0d70fc02fea199e9e7a81491d83}\label{class_node_tree_ae6d1c0d70fc02fea199e9e7a81491d83}} 
+\index{Node\+Tree@{Node\+Tree}!insert\+Inorder@{insert\+Inorder}}
+\index{insert\+Inorder@{insert\+Inorder}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{insert\+Inorder()}{insertInorder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::insert\+Inorder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{sub\+Tree\+Ptr,  }\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{new\+Node }\end{DoxyParamCaption})}
+
+
+
+global variable to count the amount of nodes 
+
+Will insert the values into the tree 
+\begin{DoxyParams}{Parameters}
+{\em sub\+Tree\+Ptr,pointer} & to the root \\
+\hline
+{\em new\+Node,pointer} & the a new\+Node that contains new value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the root 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root pointer and a new node containing the value of the new value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will take the root pointer and the new node and set the new node to the right place 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a484735008677b458037b1ce114d12f1a}\label{class_node_tree_a484735008677b458037b1ce114d12f1a}} 
+\index{Node\+Tree@{Node\+Tree}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{is\+Empty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Node\+Tree\+::is\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption}) const}
+
+
+
+Will test if the tree is empty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool, if it is empty 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root pointer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively check if the node points to null, or both children are null 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a71a5469b3871672b409224ee905540c3}\label{class_node_tree_a71a5469b3871672b409224ee905540c3}} 
+\index{Node\+Tree@{Node\+Tree}!min\+Value@{min\+Value}}
+\index{min\+Value@{min\+Value}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{min\+Value()}{minValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::min\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption})}
+
+Will find the min value in the tree 
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+current, pointer to the address of the min value 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root to find the mon value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will run down the left pointers until it finds null and return the address where it is min value 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a09ddf9e2cb245c50952b9669fb328907}\label{class_node_tree_a09ddf9e2cb245c50952b9669fb328907}} 
+\index{Node\+Tree@{Node\+Tree}!postorder\+Transverse@{postorder\+Transverse}}
+\index{postorder\+Transverse@{postorder\+Transverse}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{postorder\+Transverse()}{postorderTransverse()}}
+{\footnotesize\ttfamily void Node\+Tree\+::postorder\+Transverse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption}) const}
+
+
+
+Will postorder transverse the tree and print the data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will get the rootptr to transverse the data 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively call itself to move through the tree to print it in postorder 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a73bd5a18b76a3741fcf49e0465622de2}\label{class_node_tree_a73bd5a18b76a3741fcf49e0465622de2}} 
+\index{Node\+Tree@{Node\+Tree}!preorder\+Transverse@{preorder\+Transverse}}
+\index{preorder\+Transverse@{preorder\+Transverse}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{preorder\+Transverse()}{preorderTransverse()}}
+{\footnotesize\ttfamily void Node\+Tree\+::preorder\+Transverse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption}) const}
+
+
+
+Will preorder transverse the tree and print the data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will get the rootptr to transverse the data 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will recursively call itself to move through the tree to print it in preorder 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a56b97fb5f2ea3ed32ec901e1a5589f89}\label{class_node_tree_a56b97fb5f2ea3ed32ec901e1a5589f89}} 
+\index{Node\+Tree@{Node\+Tree}!remove\+Leftmost\+Node@{remove\+Leftmost\+Node}}
+\index{remove\+Leftmost\+Node@{remove\+Leftmost\+Node}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{remove\+Leftmost\+Node()}{removeLeftmostNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::remove\+Leftmost\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{sub\+Tree\+Ptr,  }\item[{int \&}]{inorder\+Successor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Will remove the left most \mbox{\hyperlink{class_node}{Node}} 
+\begin{DoxyParams}{Parameters}
+{\em sub\+Tree\+Ptr} & \\
+\hline
+{\em inorder\+Successor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+will wall the remove node to remove that node 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root pointer and the value to set it 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will get traverse to get to the left most node and then call remove\+Node to delete it 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a68eae12d4ddd719e761e9e96211c8568}\label{class_node_tree_a68eae12d4ddd719e761e9e96211c8568}} 
+\index{Node\+Tree@{Node\+Tree}!remove\+Node@{remove\+Node}}
+\index{remove\+Node@{remove\+Node}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{remove\+Node()}{removeNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::remove\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{node\+Ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Will remove the node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+node\+Ptr 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the pointer to delete the node 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will take the pointer and delete that node and then fill in the gap 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a5f976e7369dcc91276df40678b59c33c}\label{class_node_tree_a5f976e7369dcc91276df40678b59c33c}} 
+\index{Node\+Tree@{Node\+Tree}!remove\+Value@{remove\+Value}}
+\index{remove\+Value@{remove\+Value}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{remove\+Value()}{removeValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+Tree\+::remove\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{sub\+Tree\+Ptr,  }\item[{int}]{target,  }\item[{bool \&}]{success }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Will remove a value from the tree 
+\begin{DoxyParams}{Parameters}
+{\em sub\+Tree\+Ptr} & \\
+\hline
+{\em target} & \\
+\hline
+{\em success} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer the the node 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will take in the root , the target and the bool value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+It will recursively call itself to remove the target and return that pointer 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_a4deaf904f4b727579020bcf6cba77a8f}\label{class_node_tree_a4deaf904f4b727579020bcf6cba77a8f}} 
+\index{Node\+Tree@{Node\+Tree}!reset\+Count@{reset\+Count}}
+\index{reset\+Count@{reset\+Count}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{reset\+Count()}{resetCount()}}
+{\footnotesize\ttfamily void Node\+Tree\+::reset\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Will reset the node value for get\+Numberof\+Nodes \begin{DoxyPostcond}{Postcondition}
+Will reset the global variable nodes to 1 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_adfa34cb3970d7ea5ed4c7861ee844b1e}\label{class_node_tree_adfa34cb3970d7ea5ed4c7861ee844b1e}} 
+\index{Node\+Tree@{Node\+Tree}!set\+Root@{set\+Root}}
+\index{set\+Root@{set\+Root}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{set\+Root()}{setRoot()}}
+{\footnotesize\ttfamily void Node\+Tree\+::set\+Root (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{root }\end{DoxyParamCaption})}
+
+Will rest the root\+Ptr to a address 
+\begin{DoxyParams}{Parameters}
+{\em root} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in a node pointer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the root\+Ptr to the root address 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_tree_aa354f6975e4e1123b47a21948d00e1b2}\label{class_node_tree_aa354f6975e4e1123b47a21948d00e1b2}} 
+\index{Node\+Tree@{Node\+Tree}!set\+Root\+Data@{set\+Root\+Data}}
+\index{set\+Root\+Data@{set\+Root\+Data}!Node\+Tree@{Node\+Tree}}
+\subsubsection{\texorpdfstring{set\+Root\+Data()}{setRootData()}}
+{\footnotesize\ttfamily void Node\+Tree\+::set\+Root\+Data (\begin{DoxyParamCaption}\item[{const int \&}]{new\+Data }\end{DoxyParamCaption})}
+
+Will set the s 
+\begin{DoxyParams}{Parameters}
+{\em new\+Data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in a in to give to the root ptr 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will call the constructor for a new node and give the root pointer that data 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Node\+Tree.\+h\item 
+Node\+Tree.\+cpp\end{DoxyCompactItemize}

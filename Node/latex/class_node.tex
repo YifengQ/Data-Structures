@@ -1,0 +1,228 @@
+\hypertarget{class_node}{}\section{Node Class Reference}
+\label{class_node}\index{Node@{Node}}
+Inheritance diagram for Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_node}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_node_ad7a34779cad45d997bfd6d3d8043c75f}\label{class_node_ad7a34779cad45d997bfd6d3d8043c75f}} 
+\mbox{\hyperlink{class_node_ad7a34779cad45d997bfd6d3d8043c75f}{Node}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor for \mbox{\hyperlink{class_node}{Node}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node_a6b85d29b3bde0f983d0a6135ca440c0a}{Node}} (const int \&anitem)
+\item 
+\mbox{\hyperlink{class_node_a63f4f5083e2a677525a28a5cd194178d}{Node}} (const int \&item, \mbox{\hyperlink{class_node}{Node}} $\ast$left\+Ptr, \mbox{\hyperlink{class_node}{Node}} $\ast$right\+Ptr)
+\begin{DoxyCompactList}\small\item\em Constructor for item, and the child objects. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_a2ee7aacc0b20abf2301256fe72d0d9cc}{set\+Item}} (const int \&anitem)
+\begin{DoxyCompactList}\small\item\em Will set the value for the item. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_node_ad51c74ff8860a12738136be8f1f17682}{get\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Will return the item value at that node. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_node_aa4852cb11b6fc5fbb03e110390d0966d}\label{class_node_aa4852cb11b6fc5fbb03e110390d0966d}} 
+void {\bfseries set\+Count} ()
+\item 
+\mbox{\Hypertarget{class_node_a7fa9c0a066de25a23670691f6ca99116}\label{class_node_a7fa9c0a066de25a23670691f6ca99116}} 
+int {\bfseries get\+Count} ()
+\item 
+bool \mbox{\hyperlink{class_node_a0c5b662d3bfbb856292a9aab878ed622}{is\+Leaf}} () const
+\begin{DoxyCompactList}\small\item\em Whill cheak if that node has leaft values. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_a81c225637a0cc1edd73c2aba18ea6f4a}{get\+Left\+Child\+Ptr}} ()
+\begin{DoxyCompactList}\small\item\em Will return the left child pointer at that node. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}} $\ast$ \mbox{\hyperlink{class_node_a9f9db183586c193a33627e239b1cdab5}{get\+Right\+Child\+Ptr}} ()
+\begin{DoxyCompactList}\small\item\em Will return the right child pointer at that node. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_node_a4da6acb58d5b8f60bc7ac822250cda32}{set\+Left\+Child\+Ptr}} (\mbox{\hyperlink{class_node}{Node}} $\ast$left\+Ptr)
+\begin{DoxyCompactList}\small\item\em Will set the left child pointer for the item. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_node_a7e4994f0037bcc6b52a568de0c0a8acf}{set\+Right\+Child\+Ptr}} (\mbox{\hyperlink{class_node}{Node}} $\ast$right\+Ptr)
+\begin{DoxyCompactList}\small\item\em Will set the right child pointer for the node. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_node_a6b85d29b3bde0f983d0a6135ca440c0a}\label{class_node_a6b85d29b3bde0f983d0a6135ca440c0a}} 
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\subsubsection{\texorpdfstring{Node()}{Node()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Node\+::\+Node (\begin{DoxyParamCaption}\item[{const int \&}]{anitem }\end{DoxyParamCaption})}
+
+Constructor for the item only 
+\begin{DoxyParams}{Parameters}
+{\em anitem} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in an int to give to the item 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will give the set the item to the value and set the childs to null 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a63f4f5083e2a677525a28a5cd194178d}\label{class_node_a63f4f5083e2a677525a28a5cd194178d}} 
+\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\subsubsection{\texorpdfstring{Node()}{Node()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Node\+::\+Node (\begin{DoxyParamCaption}\item[{const int \&}]{anitem,  }\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{left\+Ptr,  }\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{right\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Constructor for item, and the child objects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em anitem} & \\
+\hline
+{\em left\+Ptr} & \\
+\hline
+{\em right\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take the item and child pointer values 
+\end{DoxyPrecond}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_node_ad51c74ff8860a12738136be8f1f17682}\label{class_node_ad51c74ff8860a12738136be8f1f17682}} 
+\index{Node@{Node}!get\+Item@{get\+Item}}
+\index{get\+Item@{get\+Item}!Node@{Node}}
+\subsubsection{\texorpdfstring{get\+Item()}{getItem()}}
+{\footnotesize\ttfamily int Node\+::get\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Will return the item value at that node. 
+
+\begin{DoxyReturn}{Returns}
+item 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will get called at that node 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return the value at that node 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a81c225637a0cc1edd73c2aba18ea6f4a}\label{class_node_a81c225637a0cc1edd73c2aba18ea6f4a}} 
+\index{Node@{Node}!get\+Left\+Child\+Ptr@{get\+Left\+Child\+Ptr}}
+\index{get\+Left\+Child\+Ptr@{get\+Left\+Child\+Ptr}!Node@{Node}}
+\subsubsection{\texorpdfstring{get\+Left\+Child\+Ptr()}{getLeftChildPtr()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+::get\+Left\+Child\+Ptr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Will return the left child pointer at that node. 
+
+\begin{DoxyReturn}{Returns}
+left\+Child\+Ptr 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will get called at that node 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return the left child pointer at that node 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a9f9db183586c193a33627e239b1cdab5}\label{class_node_a9f9db183586c193a33627e239b1cdab5}} 
+\index{Node@{Node}!get\+Right\+Child\+Ptr@{get\+Right\+Child\+Ptr}}
+\index{get\+Right\+Child\+Ptr@{get\+Right\+Child\+Ptr}!Node@{Node}}
+\subsubsection{\texorpdfstring{get\+Right\+Child\+Ptr()}{getRightChildPtr()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+::get\+Right\+Child\+Ptr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Will return the right child pointer at that node. 
+
+\begin{DoxyReturn}{Returns}
+right\+Child\+Ptr 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will get called at that node 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return the right child pointer at that node 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a0c5b662d3bfbb856292a9aab878ed622}\label{class_node_a0c5b662d3bfbb856292a9aab878ed622}} 
+\index{Node@{Node}!is\+Leaf@{is\+Leaf}}
+\index{is\+Leaf@{is\+Leaf}!Node@{Node}}
+\subsubsection{\texorpdfstring{is\+Leaf()}{isLeaf()}}
+{\footnotesize\ttfamily bool Node\+::is\+Leaf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Whill cheak if that node has leaft values. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will check it that node has leafs 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will return a bool value to check the leafs 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a2ee7aacc0b20abf2301256fe72d0d9cc}\label{class_node_a2ee7aacc0b20abf2301256fe72d0d9cc}} 
+\index{Node@{Node}!set\+Item@{set\+Item}}
+\index{set\+Item@{set\+Item}!Node@{Node}}
+\subsubsection{\texorpdfstring{set\+Item()}{setItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node}{Node}} $\ast$ Node\+::set\+Item (\begin{DoxyParamCaption}\item[{const int \&}]{anitem }\end{DoxyParamCaption})}
+
+
+
+Will set the value for the item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em anitem} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the item value to set it 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the item to the node item 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a4da6acb58d5b8f60bc7ac822250cda32}\label{class_node_a4da6acb58d5b8f60bc7ac822250cda32}} 
+\index{Node@{Node}!set\+Left\+Child\+Ptr@{set\+Left\+Child\+Ptr}}
+\index{set\+Left\+Child\+Ptr@{set\+Left\+Child\+Ptr}!Node@{Node}}
+\subsubsection{\texorpdfstring{set\+Left\+Child\+Ptr()}{setLeftChildPtr()}}
+{\footnotesize\ttfamily void Node\+::set\+Left\+Child\+Ptr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{left\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Will set the left child pointer for the item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the pointer value to set it 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the left child pointer to the node item 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_node_a7e4994f0037bcc6b52a568de0c0a8acf}\label{class_node_a7e4994f0037bcc6b52a568de0c0a8acf}} 
+\index{Node@{Node}!set\+Right\+Child\+Ptr@{set\+Right\+Child\+Ptr}}
+\index{set\+Right\+Child\+Ptr@{set\+Right\+Child\+Ptr}!Node@{Node}}
+\subsubsection{\texorpdfstring{set\+Right\+Child\+Ptr()}{setRightChildPtr()}}
+{\footnotesize\ttfamily void Node\+::set\+Right\+Child\+Ptr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}} $\ast$}]{right\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Will set the right child pointer for the node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em right\+Ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the pointer value to set it 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the right child pointer to the node 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Node.\+h\item 
+Node.\+cpp\end{DoxyCompactItemize}

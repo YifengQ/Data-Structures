@@ -1,0 +1,72 @@
+wait: 2473862 max length: 99996 avg length: 7046 idle time: 2
+wait: 0 max length: 0 avg length: 0 idle time: 4
+wait: 0 max length: 0 avg length: 0 idle time: 4
+Simulation Time(seconds): 0.002393
+Virtual Time(seconds): 0.246196
+wait: 0 max length: 0 avg length: 0 idle time: 1
+wait: 0 max length: 0 avg length: 0 idle time: 1
+Simulation Time(seconds): 0.001739
+Virtual Time(seconds): 0.233049
+wait: 2465967 max length: 99998 avg length: 7048 idle time: 1
+wait: 2465967 max length: 99998 avg length: 7050 idle time: 1
+Simulation Time(seconds): 58.6982
+Virtual Time(seconds): 121.1
+wait: 2485489 max length: 99998 avg length: 7048 idle time: 2
+wait: 2485489 max length: 99997 avg length: 7047 idle time: 2
+Simulation Time(seconds): 61.8457
+Virtual Time(seconds): 122.278
+wait: 2466823 max length: 99998 avg length: 7048 idle time: 6
+wait: 2466823 max length: 99997 avg length: 7047 idle time: 6
+Simulation Time(seconds): 61.2847
+Virtual Time(seconds): 123.989
+wait: 2479646 max length: 99998 avg length: 7048 idle time: 1
+wait: 2479646 max length: 99997 avg length: 7047 idle time: 1
+Simulation Time(seconds): 60.3043
+Virtual Time(seconds): 124.728
+wait: 2470332 max length: 99998 avg length: 7048 idle time: 2
+wait: 2470283 max length: 99996 avg length: 7046 idle time: 2
+Simulation Time(seconds): 63.4323
+Virtual Time(seconds): 129.655
+wait: 2473901 max length: 99998 avg length: 7048 idle time: 2
+wait: 2473901 max length: 99997 avg length: 7047 idle time: 2
+Simulation Time(seconds): 61.6253
+Virtual Time(seconds): 123.718
+wait: 2470887 max length: 99998 avg length: 7048 idle time: 1
+wait: 2470887 max length: 99997 avg length: 7047 idle time: 1
+Simulation Time(seconds): 60.5875
+Virtual Time(seconds): 124.097
+wait: 2475740 max length: 99998 avg length: 7048 idle time: 2
+Simulation Time(seconds): 64.1865
+Virtual Time(seconds): 64.455
+wait: 2469211 max length: 99998 avg length: 7048 idle time: 1
+Simulation Time(seconds): 66.8313
+Virtual Time(seconds): 67.1464
+wait: 0 max length: 0 avg length: 0 idle time: 1
+Simulation Time(seconds): 0.001963
+Virtual Time(seconds): 0.299518
+wait: 0 max length: 0 avg length: 0 idle time: 2
+Simulation Time(seconds): 0.004033
+Virtual Time(seconds): 0.342081
+wait: 2486707 max length: 99998 avg length: 7048 idle time: 1
+Simulation Time(seconds): 65.6007
+Virtual Time(seconds): 65.8588
+wait: 2469906 max length: 99998 avg length: 7048 idle time: 1
+Simulation Time(seconds): 65.6413
+Virtual Time(seconds): 65.9791
+wait: 2475070 max length: 99998 avg length: 7048 idle time: 1
+Simulation Time(seconds): 66.216
+Virtual Time(seconds): 66.4955
+wait: 2481966 max length: 99997 avg length: 7047 idle time: 1
+Simulation Time(seconds): 58.1047
+Virtual Time(seconds): 58.4157
+wait: 2461756 max length: 99997 avg length: 7047 idle time: 1
+Simulation Time(seconds): 62.7991
+Virtual Time(seconds): 63.1009
+wait: 2477835 max length: 99997 avg length: 7047 idle time: 1
+wait: 2477835 max length: 99998 avg length: 14097 idle time: 1
+Simulation Time(seconds): 61.3584
+Virtual Time(seconds): 129.477
+wait: 2476482 max length: 99997 avg length: 7047 idle time: 1
+wait: 2476482 max length: 99998 avg length: 14097 idle time: 1
+Simulation Time(seconds): 65.794
+Virtual Time(seconds): 131.792

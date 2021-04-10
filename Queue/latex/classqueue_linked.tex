@@ -1,0 +1,183 @@
+\hypertarget{classqueue_linked}{}\section{queue\+Linked Class Reference}
+\label{classqueue_linked}\index{queue\+Linked@{queue\+Linked}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classqueue_linked_a3c940956f0ad6b1f10d213860ac6b19d}{queue\+Linked}} ()
+\begin{DoxyCompactList}\small\item\em Default C-\/tor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classqueue_linked_aae8edd6c0b29eb247ff3f8f296c0f357}{set\+Line}} (int, int, int)
+\begin{DoxyCompactList}\small\item\em Will give the values of the arrival times and duration times. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classqueue_linked_a349d8f2de3ef18dd6668e4660b4e2aec}{process\+Arrival}} (int, int)
+\begin{DoxyCompactList}\small\item\em Will procces the arrival time for that index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classqueue_linked_a7d50b634bcfef6b6128799e4b80275e5}{process\+Departure}} (int index)
+\begin{DoxyCompactList}\small\item\em Will proccess the departure time and all the other data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classqueue_linked_a26a7a4d03d8a4946b980d1d130799704}{set\+Avail}} (bool)
+\begin{DoxyCompactList}\small\item\em Will set the teller to true or false. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classqueue_linked_ade8a9e0f04a4c28bc0d5683493ea949b}{get\+Avail}} ()
+\begin{DoxyCompactList}\small\item\em Will check if it is empty. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classqueue_linked_aa7213f39967c771e23beba31a07b17af}\label{classqueue_linked_aa7213f39967c771e23beba31a07b17af}} 
+bool {\bfseries is\+Empty} (int)
+\item 
+\mbox{\Hypertarget{classqueue_linked_a1157080a90f16c2f34e7ad77692c4856}\label{classqueue_linked_a1157080a90f16c2f34e7ad77692c4856}} 
+void {\bfseries set\+Arrival} (int)
+\item 
+\mbox{\Hypertarget{classqueue_linked_aeb67c50e755c881e01034f7cf420b25d}\label{classqueue_linked_aeb67c50e755c881e01034f7cf420b25d}} 
+int {\bfseries get\+Arrival} (int)
+\item 
+\mbox{\Hypertarget{classqueue_linked_a5cc8a954aa7e02d4cd482a165bf630a9}\label{classqueue_linked_a5cc8a954aa7e02d4cd482a165bf630a9}} 
+void {\bfseries remove} ()
+\item 
+\mbox{\Hypertarget{classqueue_linked_a9f34717aa527fcfdd7835393cb061a70}\label{classqueue_linked_a9f34717aa527fcfdd7835393cb061a70}} 
+int {\bfseries get\+Depart} (int i)
+\item 
+\mbox{\Hypertarget{classqueue_linked_a78d72dd1c926d6b71e463b1e76f4b3d9}\label{classqueue_linked_a78d72dd1c926d6b71e463b1e76f4b3d9}} 
+int {\bfseries get\+Wait} (int)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classqueue_linked_a2b0374b228b28be7b4964a6a7bdf7bba}\label{classqueue_linked_a2b0374b228b28be7b4964a6a7bdf7bba}} 
+class {\bfseries linked\+List}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classqueue_linked_a3c940956f0ad6b1f10d213860ac6b19d}\label{classqueue_linked_a3c940956f0ad6b1f10d213860ac6b19d}} 
+\index{queue\+Linked@{queue\+Linked}!queue\+Linked@{queue\+Linked}}
+\index{queue\+Linked@{queue\+Linked}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{queue\+Linked()}{queueLinked()}}
+{\footnotesize\ttfamily queue\+Linked\+::queue\+Linked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default C-\/tor. 
+
+\begin{DoxyPrecond}{Precondition}
+When a class object is called it gives it default values 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will give all the values 0 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classqueue_linked_ade8a9e0f04a4c28bc0d5683493ea949b}\label{classqueue_linked_ade8a9e0f04a4c28bc0d5683493ea949b}} 
+\index{queue\+Linked@{queue\+Linked}!get\+Avail@{get\+Avail}}
+\index{get\+Avail@{get\+Avail}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{get\+Avail()}{getAvail()}}
+{\footnotesize\ttfamily bool queue\+Linked\+::get\+Avail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Will check if it is empty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Will check that index position 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the index goes over the set amount it is at the end 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classqueue_linked_a349d8f2de3ef18dd6668e4660b4e2aec}\label{classqueue_linked_a349d8f2de3ef18dd6668e4660b4e2aec}} 
+\index{queue\+Linked@{queue\+Linked}!process\+Arrival@{process\+Arrival}}
+\index{process\+Arrival@{process\+Arrival}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{process\+Arrival()}{processArrival()}}
+{\footnotesize\ttfamily void queue\+Linked\+::process\+Arrival (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{time }\end{DoxyParamCaption})}
+
+
+
+Will procces the arrival time for that index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+{\em time} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in current time to set the wait time 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the wait time for that index, and set the tller to false 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classqueue_linked_a7d50b634bcfef6b6128799e4b80275e5}\label{classqueue_linked_a7d50b634bcfef6b6128799e4b80275e5}} 
+\index{queue\+Linked@{queue\+Linked}!process\+Departure@{process\+Departure}}
+\index{process\+Departure@{process\+Departure}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{process\+Departure()}{processDeparture()}}
+{\footnotesize\ttfamily void queue\+Linked\+::process\+Departure (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Will proccess the departure time and all the other data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the index to get and set data for that index 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will calcualte the departure time for the customer 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classqueue_linked_a26a7a4d03d8a4946b980d1d130799704}\label{classqueue_linked_a26a7a4d03d8a4946b980d1d130799704}} 
+\index{queue\+Linked@{queue\+Linked}!set\+Avail@{set\+Avail}}
+\index{set\+Avail@{set\+Avail}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{set\+Avail()}{setAvail()}}
+{\footnotesize\ttfamily void queue\+Linked\+::set\+Avail (\begin{DoxyParamCaption}\item[{bool}]{a }\end{DoxyParamCaption})}
+
+
+
+Will set the teller to true or false. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Takes in a bool value to set 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+sets the availibility to a 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classqueue_linked_aae8edd6c0b29eb247ff3f8f296c0f357}\label{classqueue_linked_aae8edd6c0b29eb247ff3f8f296c0f357}} 
+\index{queue\+Linked@{queue\+Linked}!set\+Line@{set\+Line}}
+\index{set\+Line@{set\+Line}!queue\+Linked@{queue\+Linked}}
+\subsubsection{\texorpdfstring{set\+Line()}{setLine()}}
+{\footnotesize\ttfamily void queue\+Linked\+::set\+Line (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{arrival,  }\item[{int}]{duration }\end{DoxyParamCaption})}
+
+
+
+Will give the values of the arrival times and duration times. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+{\em arrival} & \\
+\hline
+{\em duration} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Will take in the index, arrival and duration time to give to the class 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Will set the arrival and duration time for that index in the class 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+queue\+Linked.\+h\item 
+queue\+Linked.\+cpp\end{DoxyCompactItemize}

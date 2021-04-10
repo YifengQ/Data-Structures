@@ -1,0 +1,100 @@
+\begin{theindex}
+
+  \item {array\+List}, \hyperpage{3}
+    \subitem {get\+Arrival}, \hyperpage{3}
+    \subitem {get\+Departure}, \hyperpage{3}
+    \subitem {get\+Duration}, \hyperpage{4}
+    \subitem {get\+Wait\+Time}, \hyperpage{4}
+    \subitem {set\+Arrival}, \hyperpage{4}
+    \subitem {set\+Departure}, \hyperpage{5}
+    \subitem {set\+Duration}, \hyperpage{5}
+    \subitem {set\+Wait\+Time}, \hyperpage{5}
+
+  \indexspace
+
+  \item {get\+Arrival}
+    \subitem {array\+List}, \hyperpage{3}
+    \subitem {linked\+List}, \hyperpage{6}
+  \item {get\+Avail}
+    \subitem {queue\+Linked}, \hyperpage{14}
+  \item {get\+Departure}
+    \subitem {array\+List}, \hyperpage{3}
+    \subitem {linked\+List}, \hyperpage{6}
+  \item {get\+Duration}
+    \subitem {array\+List}, \hyperpage{4}
+    \subitem {linked\+List}, \hyperpage{7}
+  \item {get\+Wait\+Time}
+    \subitem {array\+List}, \hyperpage{4}
+    \subitem {linked\+List}, \hyperpage{7}
+
+  \indexspace
+
+  \item {is\+Empty}
+    \subitem {queue}, \hyperpage{10}
+
+  \indexspace
+
+  \item {linked\+List}, \hyperpage{6}
+    \subitem {get\+Arrival}, \hyperpage{6}
+    \subitem {get\+Departure}, \hyperpage{6}
+    \subitem {get\+Duration}, \hyperpage{7}
+    \subitem {get\+Wait\+Time}, \hyperpage{7}
+    \subitem {set\+Arrival}, \hyperpage{7}
+    \subitem {set\+Departure}, \hyperpage{8}
+    \subitem {set\+Duration}, \hyperpage{8}
+    \subitem {set\+Wait\+Time}, \hyperpage{8}
+
+  \indexspace
+
+  \item {process\+Arrival}
+    \subitem {queue}, \hyperpage{10}
+    \subitem {queue\+Linked}, \hyperpage{14}
+  \item {process\+Departure}
+    \subitem {queue}, \hyperpage{11}
+    \subitem {queue\+Linked}, \hyperpage{14}
+
+  \indexspace
+
+  \item {queue}, \hyperpage{9}
+    \subitem {is\+Empty}, \hyperpage{10}
+    \subitem {process\+Arrival}, \hyperpage{10}
+    \subitem {process\+Departure}, \hyperpage{11}
+    \subitem {queue}, \hyperpage{10}
+    \subitem {reset}, \hyperpage{11}
+    \subitem {set\+Avail}, \hyperpage{12}
+    \subitem {set\+Line}, \hyperpage{12}
+  \item {queue\+Linked}, \hyperpage{13}
+    \subitem {get\+Avail}, \hyperpage{14}
+    \subitem {process\+Arrival}, \hyperpage{14}
+    \subitem {process\+Departure}, \hyperpage{14}
+    \subitem {queue\+Linked}, \hyperpage{13}
+    \subitem {set\+Avail}, \hyperpage{15}
+    \subitem {set\+Line}, \hyperpage{15}
+
+  \indexspace
+
+  \item {reset}
+    \subitem {queue}, \hyperpage{11}
+
+  \indexspace
+
+  \item {set\+Arrival}
+    \subitem {array\+List}, \hyperpage{4}
+    \subitem {linked\+List}, \hyperpage{7}
+  \item {set\+Avail}
+    \subitem {queue}, \hyperpage{12}
+    \subitem {queue\+Linked}, \hyperpage{15}
+  \item {set\+Departure}
+    \subitem {array\+List}, \hyperpage{5}
+    \subitem {linked\+List}, \hyperpage{8}
+  \item {set\+Duration}
+    \subitem {array\+List}, \hyperpage{5}
+    \subitem {linked\+List}, \hyperpage{8}
+  \item {set\+Line}
+    \subitem {queue}, \hyperpage{12}
+    \subitem {queue\+Linked}, \hyperpage{15}
+  \item {set\+Wait\+Time}
+    \subitem {array\+List}, \hyperpage{5}
+    \subitem {linked\+List}, \hyperpage{8}
+
+\end{theindex}

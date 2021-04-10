@@ -1,0 +1,93 @@
+\begin{theindex}
+
+  \item {bubble\+\_\+sort}
+    \subitem {proj4}, \hyperpage{4}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {proj4}, \hyperpage{4}
+  \item {count\+\_\+sort}
+    \subitem {proj4}, \hyperpage{5}
+
+  \indexspace
+
+  \item {get\+Comparisons}
+    \subitem {proj4}, \hyperpage{5}
+  \item {get\+Count\+Sorts}
+    \subitem {proj4}, \hyperpage{6}
+  \item {get\+Counts}
+    \subitem {proj4}, \hyperpage{5}
+  \item {get\+Left}
+    \subitem {proj4}, \hyperpage{6}
+  \item {get\+Max}
+    \subitem {proj4}, \hyperpage{6}
+  \item {get\+Number}
+    \subitem {proj4}, \hyperpage{7}
+  \item {get\+Partitions}
+    \subitem {proj4}, \hyperpage{7}
+  \item {get\+Reursion}
+    \subitem {proj4}, \hyperpage{8}
+  \item {get\+Right}
+    \subitem {proj4}, \hyperpage{8}
+  \item {get\+Swaps}
+    \subitem {proj4}, \hyperpage{8}
+
+  \indexspace
+
+  \item {insert}
+    \subitem {proj4}, \hyperpage{9}
+
+  \indexspace
+
+  \item {merge}
+    \subitem {proj4}, \hyperpage{9}
+  \item {merge\+Sort}
+    \subitem {proj4}, \hyperpage{10}
+
+  \indexspace
+
+  \item {partition}
+    \subitem {proj4}, \hyperpage{10}
+  \item {proj4}, \hyperpage{3}
+    \subitem {bubble\+\_\+sort}, \hyperpage{4}
+    \subitem {clear}, \hyperpage{4}
+    \subitem {count\+\_\+sort}, \hyperpage{5}
+    \subitem {get\+Comparisons}, \hyperpage{5}
+    \subitem {get\+Count\+Sorts}, \hyperpage{6}
+    \subitem {get\+Counts}, \hyperpage{5}
+    \subitem {get\+Left}, \hyperpage{6}
+    \subitem {get\+Max}, \hyperpage{6}
+    \subitem {get\+Number}, \hyperpage{7}
+    \subitem {get\+Partitions}, \hyperpage{7}
+    \subitem {get\+Reursion}, \hyperpage{8}
+    \subitem {get\+Right}, \hyperpage{8}
+    \subitem {get\+Swaps}, \hyperpage{8}
+    \subitem {insert}, \hyperpage{9}
+    \subitem {merge}, \hyperpage{9}
+    \subitem {merge\+Sort}, \hyperpage{10}
+    \subitem {partition}, \hyperpage{10}
+    \subitem {proj4}, \hyperpage{4}
+    \subitem {quick\+\_\+sort}, \hyperpage{11}
+    \subitem {radixsort}, \hyperpage{11}
+    \subitem {set\+Max\+Items}, \hyperpage{12}
+    \subitem {swap}, \hyperpage{12}
+
+  \indexspace
+
+  \item {quick\+\_\+sort}
+    \subitem {proj4}, \hyperpage{11}
+
+  \indexspace
+
+  \item {radixsort}
+    \subitem {proj4}, \hyperpage{11}
+
+  \indexspace
+
+  \item {set\+Max\+Items}
+    \subitem {proj4}, \hyperpage{12}
+  \item {swap}
+    \subitem {proj4}, \hyperpage{12}
+
+\end{theindex}
